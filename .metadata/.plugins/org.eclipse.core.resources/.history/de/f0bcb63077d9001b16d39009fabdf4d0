@@ -1,0 +1,25 @@
+package LinkedListTask01;
+
+public class Main {
+	
+	public static void main(String[] args){
+		
+		SinglyLinkedList list =new SinglyLinkedList(); //creates list object of SinglyLinkedList
+		
+		list.insertData(15); //inserting data in nodes of list
+		list.insertData(9);
+		list.insertData(20);
+		list.insertData(38);
+		list.insertData(7);
+		list.insertData(41);
+		
+		list.delete(); //deletes entire list
+	//	list.printList(); //prints entire list
+		System.out.println(list); //calling toString method using list object name to print list data
+			
+	}
+// sb delete hgya means head null, tw ye case bh print k or toString k function mai lgana prta
+	// mene toString k  mai lgaya va tbhi empy list print krrj
+	//ab tm printList() mai bh lgado ek if, k agr head null tw empy print, else jo kaam hurha wo ho
+	// clear?ok.band krdn?ye direct run q nhi hurha?
+}

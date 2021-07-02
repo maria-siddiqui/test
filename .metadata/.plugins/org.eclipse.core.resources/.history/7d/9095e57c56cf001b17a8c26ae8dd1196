@@ -1,0 +1,56 @@
+import java.util.ArrayList;
+import java.util.Random;
+
+public class T1 {
+
+	public static void main(String[] args) {
+		char Array[]={'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','1','2','3','4','5','6','7','8','9','0'};
+		int intArray[]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36};
+		
+		Random rand = new Random();
+		int Arr[]={0,0};
+		int i,j;
+		ArrayList<Integer> intArrray = new ArrayList<Integer>();
+		int intNum = rand.nextInt(10);
+		for(i=0;i<intNum;i++){
+			int flag=0;
+			int x=0;
+			while(flag==1){
+				x=rand.nextInt(10);
+				for(j=0;j<intArrray.size();j++){
+					if(x==intArray[j]){
+						flag=1;
+					}
+				}
+			}
+			intArrray.add(x);
+		}
+		for(i=0;i<intNum;i++){
+			System.out.print(intArray[i]);
+		}
+		
+//		for(i=0;i<2;i++){
+//			int randInt = rand.nextInt(10);
+//			Arr[i]=randInt;
+//		}
+//		
+//		for(i=0;i<10;i++){
+//			//System.out.print(Array[i]);
+//			for(j=0;j<2;j++){
+//				if(Arr[j]==i){
+//					while()
+//					int randNum=rand.nextInt(10);
+//					intArray[i]=0;
+//					System.out.print(Array[randNum+25]);
+//				}
+//				else{
+//					int randNum=rand.nextInt(10);
+//					intArray[i]=0;
+//					System.out.print(Array[randNum]);
+//				}
+//			}
+//			
+//		}
+	}
+
+}

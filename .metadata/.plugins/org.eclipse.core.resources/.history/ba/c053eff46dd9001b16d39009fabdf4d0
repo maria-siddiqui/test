@@ -1,0 +1,36 @@
+
+public class LinkedList {
+	
+	Node head; //creates head object of class node of linkedlist
+	
+	public void insertData(int data){ //function to add data in nodes of list
+		Node node=new Node(data);//node object of node class
+		if (head==null){ //checks if head is null or list is empty
+			head=node; //creates head of given node
+		}
+		else{
+			Node current=head; //if head is not null then current node is head
+			while (current.next!=null){ //loop runs until the next of current node is null
+				current=current.next; //moves from current node to the next node
+			}
+			current.next=node; //when next node is null puts given node in that null node
+		}
+	}
+	
+		public void printList(){ //function to print list from head to the second last node
+
+	        Node current=head;
+	        while (current.next!=null){
+	            System.out.println(current.data);
+	            current = current.next;
+	        }
+	        System.out.println(current.data); //prints the data of last node
+	    }
+
+		public void delete(){ //function to delete entire list
+			head=null;
+		}
+	
+		
+	
+}

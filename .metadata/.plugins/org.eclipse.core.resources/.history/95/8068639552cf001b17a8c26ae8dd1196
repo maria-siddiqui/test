@@ -1,0 +1,10 @@
+public class T1 {
+
+	public static void main(String[] args) {
+		char Array[]={'A','B','C','D','E','F','G','H','I','J','K','L'};
+		for(int i=0;i<10;i++){
+			System.out.print(Array[i]);
+		}
+	}
+
+}

@@ -1,0 +1,37 @@
+
+############### log4j
+log4j.rootLogger=ERROR, stdout, R
+log4j.category.AUDIT=INFO, audit
+
+#------ stdout--------
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+
+# Pattern to output the caller's file name and line number.
+log4j.appender.stdout.layout.ConversionPattern=%p [%c{1}] %m%n
+
+#------ R--------
+log4j.appender.R=org.apache.log4j.FileAppender
+# A relative path only works if the eclipse run configuration is set to use ${workspace_loc:WSX} as th current directory (Arguments tab) 
+log4j.appender.R.File=./log/debug.log
+log4j.appender.R.Append=false
+
+log4j.appender.R.layout=org.apache.log4j.PatternLayout
+log4j.appender.R.layout.ConversionPattern=%d{HH:mm:ss} <%X{uid}> %p [%c{1}] %m%n
+
+#------ audit--------
+log4j.appender.audit=org.apache.log4j.FileAppender
+# A relative path only works if the eclipse run configuration is set to use ${workspace_loc:WSX} as th current directory (Arguments tab) 
+log4j.appender.audit.File=./log/AUDIT.log
+log4j.appender.audit.Append=true
+
+log4j.appender.audit.layout=org.apache.log4j.PatternLayout
+log4j.appender.audit.layout.ConversionPattern=%d,%m%n
+
+# set logging levels here
+log4j.logger.com.workstream=WARN
+log4j.logger.com.wsx=DEBUG
+
+
+
+

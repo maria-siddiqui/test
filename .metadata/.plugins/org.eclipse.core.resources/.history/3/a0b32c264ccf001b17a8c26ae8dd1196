@@ -1,0 +1,49 @@
+import java.util.Random;
+
+public class T1 {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome...");
+		char[] arr= {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','1','2','3','4','5','6','7','8','9','0'};
+		Random rand = new Random();
+		
+		int size= 10;
+		int intCount=0;
+		int value;
+		char [] st = new char[size];
+		for(int i =0;i<size;i++){
+			 value = rand.nextInt(36);
+			 
+			if(value>26){
+				intCount++;
+			}
+			st[i] = (char) value;
+		}
+		for(int j = 0; j<size;j++){
+			for(int k = j;k<size; k++){
+				if((int)(st[j])==(int)(st[k])){
+					value = arr[rand.nextInt(36)];
+					for(int l=0;l<st.length;l++){
+						value= arr[rand.nextInt(36)];
+						if((char)(value)!=st[j])
+						{
+							st[j]=(char) value;
+							break;
+						}
+					}
+					st[j]=(char) value;
+					if(value>26)intCount++;
+				}
+				if(intCount<2){
+					value = arr[rand.nextInt(36)];
+					
+				}
+			}
+		}
+		for(int i =0;i<st.length;i++){
+			System.out.print(st[i]);
+		}
+		
+	}
+
+}

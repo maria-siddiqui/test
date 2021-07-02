@@ -1,0 +1,24 @@
+2021-07-01 15:53:08  [ main:0 ] - [ DEBUG ]  This is a debug message
+2021-07-01 15:53:08  [ main:1 ] - [ WARN ]  Warning messages
+2021-07-01 15:56:44  [ main:0 ] - [ DEBUG ]  This is a debug message
+2021-07-01 15:56:44  [ main:1 ] - [ WARN ]  Warning messages
+2021-07-01 15:59:43  [ main:0 ] - [ DEBUG ]  This is a debug message
+2021-07-01 15:59:43  [ main:0 ] - [ WARN ]  Warning messages
+2021-07-01 15:59:52  [ main:0 ] - [ ERROR ]  error on using scnnar
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at main.java.Main.main(Main.java:16)
+2021-07-01 15:59:52  [ main:48 ] - [ DEBUG ]  This is a debug message
+2021-07-01 15:59:52  [ main:49 ] - [ WARN ]  Warning messages
+2021-07-01 16:06:35  [ main:0 ] - [ ERROR ]  error on using scnnar
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at main.java.Main.main(Main.java:19)
+2021-07-01 16:06:35  [ main:2 ] - [ DEBUG ]  This is a debug message
+2021-07-01 16:06:35  [ main:2 ] - [ WARN ]  Warning messages

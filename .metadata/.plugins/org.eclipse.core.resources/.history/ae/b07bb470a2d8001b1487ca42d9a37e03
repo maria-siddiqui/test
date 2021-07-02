@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class PrimeNumbers {
+public static void main(String[] args) {
+	Scanner input= new Scanner(System.in); //creating scanner class object
+	System.out.println("Enter the first number");
+	int first=input.nextInt();//taking input from user for first number of the range to be checked
+	System.out.println("Enter the last number");
+	int last=input.nextInt();//taking input from user for last number of the range to be checked
+	if (first > last) {
+        System.out.println("Your first num should be less than second");
+    }
+	System.out.println("Prime numbers between "+first+" and "+last);
+	boolean isPrime=true;
+	for (int j=first;j<=last;j++){//using loop to check all the numbers in given range
+		int num=j;
+		if (num<=1){  //because 0 and 1 are not prime numbers
+			isPrime=false;
+			}
+		if (num>=2){
+			for(int i=2;i<=num/2;i++){
+				if (num%i==0){
+					isPrime=false;
+//					break;
+					}
+				else {
+					isPrime=true;
+				}
+				}
+			if (isPrime==true){
+				System.out.println(num);
+				}
+			}
+		}
+	}
+}
+

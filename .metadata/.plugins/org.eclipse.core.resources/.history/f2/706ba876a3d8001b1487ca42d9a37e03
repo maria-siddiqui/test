@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class First {
+    public static void main(String args[]) {
+        int first = 0;
+        int second = 13;
+        if (first > second) {
+            System.out.println("Your first num should be less than second");
+        } else {
+            for (int j = first; j <= second; j++) {
+                int num = j; //10
+                boolean isPrime = true;
+                for (int i = 2; i < num/2; i++) {
+                    if (num % i == 0) {
+                        isPrime = false;
+                        break;
+                    }
+                }
+                if (isPrime == true) {
+                    System.out.println(num + " is a prime num");
+//                }else{
+//                    System.out.println(num + " is not a prime num");
+//                }
+
+            }
+        }
+    }
+} 
+}
+

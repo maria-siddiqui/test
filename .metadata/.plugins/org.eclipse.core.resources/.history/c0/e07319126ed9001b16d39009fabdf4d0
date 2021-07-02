@@ -1,0 +1,18 @@
+import java.util.LinkedList;
+
+public class Main {
+	public static void mai(String[] args){
+		LinkedList list =new LinkedList(); //creates list object of SinglyLinkedList
+		list.insertData(15); //inserting data in nodes of list
+		list.insertData(9);
+		list.insertData(20);
+		list.insertData(38);
+		list.insertData(7);
+		list.insertData(41);
+		
+//		list.delete(); //deletes entire list
+		list.printList(); //prints entire list
+			
+	}
+
+}

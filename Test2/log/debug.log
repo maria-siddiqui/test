@@ -1,0 +1,88 @@
+15:43:20 <> ERROR [Main] error on using scnnar
+java.util.NoSuchElementException
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at main.java.Main.main(Main.java:19)
+2021-07-01 16:46:57  [ main:1 ] - [ ERROR ]  error on using scnnar
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at main.java.Main.main(Main.java:19)
+2021-07-01 16:46:57  [ main:4 ] - [ DEBUG ]  This is a debug message
+2021-07-01 16:46:57  [ main:4 ] - [ WARN ]  Warning messages
+2021-07-01 16:48:21  [ main:1 ] - [ ERROR ]  error on using scnnar
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at main.java.Main.main(Main.java:19)
+2021-07-01 16:48:21  [ main:80 ] - [ DEBUG ]  This is a debug message
+2021-07-01 16:48:21  [ main:80 ] - [ WARN ]  Warning messages
+2021-07-01 16:48:34  [ main:0 ] - [ ERROR ]  error on using scnnar
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at main.java.Main.main(Main.java:19)
+2021-07-01 16:48:34  [ main:4 ] - [ DEBUG ]  This is a debug message
+2021-07-01 16:48:34  [ main:4 ] - [ WARN ]  Warning messages
+2021-07-01 16:48:47  [ main:1 ] - [ ERROR ]  error on using scnnar
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at main.java.Main.main(Main.java:19)
+2021-07-01 16:48:47  [ main:5 ] - [ DEBUG ]  This is a debug message
+2021-07-01 16:48:47  [ main:5 ] - [ WARN ]  Warning messages
+2021-07-01 16:50:36  [ main:1 ] - [ ERROR ]  error on using scnnar
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at main.java.Main.main(Main.java:19)
+2021-07-01 16:50:36  [ main:5 ] - [ DEBUG ]  This is a debug message
+2021-07-01 16:50:36  [ main:5 ] - [ WARN ]  Warning messages
+2021-07-01 16:54:38  [ main:1 ] - [ ERROR ]  error on using scnnar
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at main.java.Main.main(Main.java:19)
+2021-07-01 16:54:38  [ main:5 ] - [ DEBUG ]  This is a debug message
+2021-07-01 16:54:38  [ main:5 ] - [ WARN ]  Warning messages
+2021-07-01 16:57:50  [ main:1 ] - [ ERROR ]  error on using scnnar
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at main.java.Main.main(Main.java:19)
+2021-07-01 16:57:50  [ main:21 ] - [ WARN ]  Warning messages
+2021-07-02 12:00:04  [ main:0 ] - [ WARN ]  Warning messages
+2021-07-02 12:00:24  [ main:1 ] - [ ERROR ]  error on using scnnar
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at main.java.Main.main(Main.java:19)
+2021-07-02 12:00:24  [ main:7 ] - [ WARN ]  Warning messages
+2021-07-02 12:01:39  [ main:0 ] - [ WARN ]  Warning messages
+2021-07-02 15:43:20  [ main:3 ] - [ ERROR ]  error on using scnnar
+java.util.NoSuchElementException
+	at java.util.Scanner.throwFor(Unknown Source)
+	at java.util.Scanner.next(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at java.util.Scanner.nextInt(Unknown Source)
+	at main.java.Main.main(Main.java:19)
+2021-07-02 15:43:20  [ main:48 ] - [ DEBUG ]  This is a debug message
+2021-07-02 15:43:20  [ main:48 ] - [ WARN ]  Warning messages

@@ -1,0 +1,34 @@
+
+############### log4j
+log4j.rootLogger=ERROR, stdout,D,E
+
+
+#------ stdout--------
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+
+# Pattern to output the caller's file name and line number.
+log4j.appender.stdout.layout.ConversionPattern=%p [%c{1}] %m%n
+
+#------ D--------
+log4j.appender.D=org.apache.log4j.FileAppender
+# A relative path only works if the eclipse run configuration is set to use ${workspace_loc:WSX} as th current directory (Arguments tab) 
+log4j.appender.D.File=./log/debug.log
+log4j.appender.D.Append=false
+
+#------ E--------
+log4j.appender.D=org.apache.log4j.FileAppender
+# A relative path only works if the eclipse run configuration is set to use ${workspace_loc:WSX} as th current directory (Arguments tab) 
+log4j.appender.D.File=./log/debug.log
+log4j.appender.D.Append=false
+
+log4j.appender.D.layout=org.apache.log4j.PatternLayout
+log4j.appender.D.layout.ConversionPattern=%d{HH:mm:ss} <%X{uid}> %p [%c{1}] %m%n
+
+
+
+
+
+
+
+

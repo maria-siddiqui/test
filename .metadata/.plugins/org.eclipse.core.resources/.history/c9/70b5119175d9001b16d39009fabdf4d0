@@ -1,0 +1,22 @@
+package LinkedListTask01;
+
+public class Main {
+	
+	public static void mai(String[] args){
+		
+		SinglyLinkedList list =new SinglyLinkedList(); //creates list object of SinglyLinkedList
+		
+		list.insertData(15); //inserting data in nodes of list
+		list.insertData(9);
+		list.insertData(20);
+		list.insertData(38);
+		list.insertData(7);
+		list.insertData(41);
+		
+//		list.delete(); //deletes entire list
+		list.printList(); //prints entire list
+		System.out.println(list); //calling toString method using list object name to print list data
+			
+	}
+
+}
